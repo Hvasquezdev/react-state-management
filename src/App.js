@@ -6,8 +6,8 @@ import { ClassState } from "./components/ClassState";
 function App() {
   return (
     <>
-      <UseState />
-      <ClassState />
+      <UseState name={"UseState"} />
+      <ClassState name={"ClassState"} />
     </>
   );
 }
